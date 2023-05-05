@@ -17,9 +17,9 @@ nav div .compra:hover{
     font-size: larger;
 }
 #cards{
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
 }
 
 .shadow{
@@ -28,8 +28,9 @@ nav div .compra:hover{
 }
 .lectura{
    color: white;
-  font-weight: 500;
-  margin-left: 50%;
+  text-align: end;
+  margin-left: 20%;
+  bottom: 30%;
 }
 .banner{
    margin-left: 0px;
@@ -37,8 +38,7 @@ nav div .compra:hover{
    margin-bottom: 10px;
   color: white;
   text-align: justify;
-  padding-left: 0px;
-  padding-right: 0px;
+  
 }
 .form--centrado{
     margin-left: 25%;
