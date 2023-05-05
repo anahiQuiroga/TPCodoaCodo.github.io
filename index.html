@@ -49,7 +49,7 @@
 
     <main>
       <section id="carrusel">
-
+       
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -62,9 +62,9 @@
               <img src="./src/imagenes/ba3.jpg" class="d-block w-100" alt="...">
             </div>
 
-          <div class="container position-absolute top-50 text-end ">
-            <div class="  text-white fs-3 fw-bold  "><p class="shadow">Conf Bs As</p></div>
-            <div class="lectura">
+          <div class="carousel-caption d-sm-block top-50 text-end overflow-y-auto lectura">
+            <div class="text-white fs-3 fw-bold  "><p class="shadow">Conf Bs As</p></div>
+            <div class=" text-white fw-bold lectura">
               <p class="shadow">
             Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otrosestudiantes de codo a codo y los oradores de primer nivel que tenemos para ti. te esperamos!
           </p>
@@ -76,6 +76,7 @@
           </div>
         </div>
         </div>
+      
       </section>
 
       <section id="titulo">
@@ -114,7 +115,7 @@
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="./src/imagenes/ada.jpeg" class="card-img-top" alt="ada lovelace">
+              <img src="./src/imagenes/ada.jpeg" class="card-img-top img-fluid" alt="ada lovelace">
               <div class="card-body">
                 <h5><span class="badge text-bg-secondary">Negocios</span>
                   <span class="badge text-bg-danger">Startups</span></h5>
@@ -129,18 +130,20 @@
       </section>
 
     <section id="columna">
-      <div class="container-fluid row banner" >
-        <div class=" row col order-1  ">
-          <img src="./src/imagenes/honolulu.jpg" width="850" alt="costa">
+      <aside class="d-flex flex-wrap p-0">
+      <div class="container-fluid row g-0 banner" >
+        <div class="col-md-6 order-1 ">
+          <img src="./src/imagenes/honolulu.jpg" class="img-fluid" alt="costa">
           </div>
-          <div class=" row col order-2 bg-black" >
-            <p> </p>
-          <p class="fs-3">  Bs As - Octubre</p>
-          <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las preincipales ciudades estadounidences. Aunque el nombre de Honolulu se refiere al area, urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
+      
+          <div class="col-md-6 order-2 bg-black" >
+           <p></p>
+          <p class="mx-2 text-light fs-3">  Bs As - Octubre</p>
+          <p class=" mx-2 text-light">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las preincipales ciudades estadounidences. Aunque el nombre de Honolulu se refiere al area, urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).</p>
           <div><button type="button" class="btn btn-outline-secondary">Conoce mas</button></div>
         </div>
         </div>
-        
+      </aside>
     </section>
 
     <section id="titulo inferior">
@@ -157,7 +160,7 @@
           <p>Anotate como orador para dar una <abbr title="attribute">charla iginite.</abbr> Cuentanos de que quieres hablar!</p>
         </blockquote>
       </figure>
-      <div class="row g-3 mb-2" style="padding-left:25%; padding-right: 25%;">
+      <div class="row g-3 mb-2" style="padding-left:20%; padding-right: 20%;">
         <div class="col">
           <input type="text" class="form-control" placeholder="nombre" aria-label="First name">
         </div>
@@ -166,11 +169,11 @@
         </div>
       
     </div>
-    <div class="form-floating row g-3 mb-2" style="padding-left:25%; padding-right: 25%;">
+    <div class="form-floating row g-3 mb-2" style="padding-left:20%; padding-right: 20%;">
       <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
       <label for="floatingTextarea2 fs-3" style="padding-left: 30%;">Sobre que quieres hablar?</label>
     </div>
-   <div class="container-sm" style="font-size: small; padding-left: 18%;">
+   <div class="container-sm" style="font-size: small; padding-left: 16%;">
                Recuerda incluir un titulo para tu charla
    </div>
    <div class="d-grid gap-2 col-6 mx-auto my-2">
@@ -181,7 +184,7 @@
     </main>
 
     <footer>
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg text-center navbar-dark bg-dark">
       
         <div class="navbar-collapse justify-content-center fs-5" >
 
